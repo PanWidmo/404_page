@@ -101,7 +101,7 @@
     .nav__menu{
         position:fixed;
         background-color: var(--first-color);
-        top:0;
+        top:-100%;
         left:0;
         width:100%;
         padding:5rem 0 4rem;
@@ -129,4 +129,8 @@
     font-size:1.5rem;
     color: var(--text-color);
     cursor: pointer;
+}
+
+.show-menu{
+    top:0;
 }
